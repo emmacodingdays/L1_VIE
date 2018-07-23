@@ -1,0 +1,102 @@
+body
+{
+	background-image: url("photo.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+    text-align: right;
+}
+
+.galery img {
+    width: 400px;
+    height: 240px;
+    padding: 15px 5px;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 200px;
+	/*padding-top: 400px;*/
+	background-color: #1B1B1E;
+	color: white;
+	font-family: 'Snell Roundhand', sans-serif;
+}
+h1
+{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+/*	background-color: white;
+*/
+}
+u 
+{
+    text-decoration: #f00 wavy underline;
+}
+#navigation li
+{
+	display: inline;
+	/*margin-right: 1px ;
+  	color: #fff ;
+  	background: #c00 ;*/
+}
+#navigation li a {
+  padding: 0px 100px ;
+  background: #c00 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+#navigation
+{
+	margin: 0px ;
+  	padding: 0px ;
+  	list-style: none ;
+  	text-align: center ;
+}
+.lien a
+{
+	color: white;
+}
+/*mark
+{
+	color: white;
+	background-color: #006030;
+}*/
+
+/*.saisons {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.saisons > h1,
+.les4 {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.les4 {
+    background: right/contain content-box border-box no-repeat url("carotte.jpg") white;
+}
+
+.les4 > h3,
+.les4 > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+
+}*/
+p {
+    color: white;
+    text-align: left;
+    font-size: 40px;
+}
