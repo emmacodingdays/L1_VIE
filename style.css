@@ -23,6 +23,7 @@ h2
 	color: white;
 	font-family: 'Snell Roundhand', sans-serif;
 }
+
 h1
 {
 	text-align: center;
@@ -31,10 +32,12 @@ h1
 /*	background-color: white;
 */
 }
+
 u 
 {
     text-decoration: #f00 wavy underline;
 }
+
 #navigation li
 {
 	display: inline;
@@ -42,7 +45,9 @@ u
   	color: #fff ;
   	background: #c00 ;*/
 }
-#navigation li a {
+
+#navigation li a 
+{
   padding: 0px 100px ;
   background: #c00 ;
   color: #fff ;
@@ -52,6 +57,7 @@ u
   text-align: center ;
   text-decoration: none ;
 }
+
 #navigation
 {
 	margin: 0px ;
@@ -59,44 +65,91 @@ u
   	list-style: none ;
   	text-align: center ;
 }
+
 .lien a
 {
 	color: white;
 }
+
 /*mark
 {
 	color: white;
 	background-color: #006030;
 }*/
 
-/*.saisons {
-    margin: 0;
-    padding: .3rem;
+p 
+{
+    color: white;
+    text-align: left;
+    font-size: 40px;
+}
+
+
+
+
+.programme 
+{
+    margin: 10px;
+    padding: .1rem;
     background-color: #eee;
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-.saisons > h1,
-.les4 {
+.programme > h3,
+
+.L1 
+{
     margin: .5rem;
     padding: .3rem;
     font-size: 1.2rem;
 }
 
-.les4 {
-    background: right/contain content-box border-box no-repeat url("carotte.jpg") white;
+.L1 
+{
+    background: right/contain content-box border-box no-repeat
+        url('carotte.jpg') white;
 }
 
-.les4 > h3,
-.les4 > p {
-    margin: .2rem;
+.L1 > h4,
+
+.L1 > p 
+{
+    margin: .3rem;
     font-size: 1rem;
+    color: black;
+}
+
+.S1 
+{
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.S1 
+{
+    background: right/contain content-box border-box no-repeat
+        url('carotte.jpg') white;
+}
+
+.S1 > h4,
+
+.S1 > p 
+{
+    margin: .3rem;
+    font-size: 1rem;
+    color: black;
 }
 
 
-}*/
-p {
-    color: white;
-    text-align: left;
-    font-size: 40px;
+h4
+{
+  text-align: left;
 }
+
+h3
+{
+  text-align: left;
+
+}
+
