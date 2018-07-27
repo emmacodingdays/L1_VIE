@@ -48,13 +48,13 @@ u
 
 #navigation li a 
 {
-  padding: 0px 100px ;
+  padding: 0px 90px ;
   background: #c00 ;
   color: #fff ;
   border: 1px solid #600 ;
   font: 1em "Trebuchet MS",Arial,sans-serif ;
   line-height: 1em ;
-  text-align: center ;
+  text-align: center;
   text-decoration: none ;
 }
 
@@ -69,87 +69,56 @@ u
 .lien a
 {
 	color: white;
+  font-size: 30px;
+  background-color: #1B1B1E;
 }
 
-/*mark
-{
-	color: white;
-	background-color: #006030;
-}*/
 
 p 
 {
     color: white;
     text-align: left;
     font-size: 40px;
+    /*background-color: #1B1B1E;*/
 }
 
 
 
-
-.programme 
+#nav li
 {
-    margin: 10px;
-    padding: .1rem;
-    background-color: #eee;
-    font: 1rem 'Fira Sans', sans-serif;
+  display: inline;
+  margin-left: 10px ;
+  /*padding-left: 10px;*/
+  color: #fff ;
+  background: #c00 ;
 }
 
-.programme > h3,
-
-.L1 
+#nav li a 
 {
-    margin: .5rem;
-    padding: .3rem;
-    font-size: 1.2rem;
+  padding: 0px 70px ;
+  background: #c00 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: left;
+  text-decoration: none ;
 }
 
-.L1 
+#nav
 {
-    background: right/contain content-box border-box no-repeat
-        url('carotte.jpg') white;
+    padding-left: 20px;
+
+    margin: 0px ;
+    padding: 0px ;
+    list-style: none ;
+    text-align: center ;
 }
 
-.L1 > h4,
-
-.L1 > p 
-{
-    margin: .3rem;
-    font-size: 1rem;
-    color: black;
-}
-
-.S1 
-{
-    margin: .5rem;
-    padding: .3rem;
-    font-size: 1.2rem;
-}
-
-.S1 
-{
-    background: right/contain content-box border-box no-repeat
-        url('carotte.jpg') white;
-}
-
-.S1 > h4,
-
-.S1 > p 
-{
-    margin: .3rem;
-    font-size: 1rem;
-    color: black;
-}
-
-
-h4
+.li > a
 {
   text-align: left;
-}
-
-h3
-{
-  text-align: left;
+  font-size: 40px;
 
 }
 
